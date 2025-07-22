@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './components_temp/Layout/Dashboard.css';
+import './components_temp/layout/Dashboard.css';
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import EstudianteForm from "./components_temp/estudiantes/EstudianteForm";
 import DocenteForm from "./components_temp/docentes/DocenteForm";
@@ -8,7 +8,7 @@ import MatriculaForm from "./components_temp/matriculas/MatriculaForm";
 import AsistenciaForm from "./components_temp/asistencias/AsistenciaForm";
 import CalificacionForm from "./components_temp/calificaciones/CalificacionForm";
 import BusquedaInteligente from "./components_temp/busqueda/BusquedaInteligente";
-import Dashboard from "./components_temp/Layout/Dashboard";
+import Dashboard from "./components_temp/layout/Dashboard";
 import Login from "./components_temp/auth/Login";
 import ProtectedRoute from "./components_temp/auth/ProtectedRoute";
 import AdminSetup from "./components_temp/admin/AdminSetup";

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { authService } from '../services/authService';
-import '../Layout/Dashboard.css';
+import '../layout/Dashboard.css';
 
 const Login = ({ onLogin }) => {
     const [isLogin, setIsLogin] = useState(true);
